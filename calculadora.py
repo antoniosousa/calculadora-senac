@@ -1,6 +1,9 @@
 def somar(a,b):
     return a+b
 
+def subtrair(a, b):
+    return a-b
+
 def dividir(a, b):
     return a/b
 
@@ -8,7 +11,7 @@ def multiplicar(a, b):
     return a*b
 
 while True:
-    operacao = input(" 1-Somar \n 2-Dividir \n 3-Multiplicar \n 0-Sair \n Qual operação deseja: ")
+    operacao = input(" 1-Somar \n 2-Dividir \n 3-Multiplicar \n 4-Subtrair \n 0-Sair \n Qual operação deseja: ")
     
     if int(operacao) == 0:
         break
